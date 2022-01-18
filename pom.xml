@@ -8,13 +8,13 @@
 		<version>2.6.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.springhelloWorld</groupId>
-	<artifactId>SpringHelloWorld</artifactId>
+	<groupId>com.EmployeeManagmet</groupId>
+	<artifactId>EmployeeDataManagement</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springhelloworld</name>
-	<description>Demo project for Spring Boot</description>
+	<name>C-A-EmployeeDataManagement</name>
+	<description>Employee management for comprehensive assessment</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -45,6 +45,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>CA-EmployeeManagement</finalName>
 	</build>
 
 </project>
